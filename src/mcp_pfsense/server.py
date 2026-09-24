@@ -16,7 +16,7 @@ _READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False)
 
 mcp = MCPServer(
     "pfsense",
-    version="0.1.0",
+    version="1.0.0",
     instructions=(
         "Read-only pfSense REST API (pfrest). Never attempt write/mutate operations. "
         "Reach the API over a private network path; do not expose the webGUI on the WAN."

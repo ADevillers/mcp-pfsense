@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mcp-pfsense"
-version = "0.1.0"
+version = "1.0.0"
 description = "Read-only MCP server for the pfSense REST API (pfrest)"
 authors = ["ADevillers"]
 license = "MIT"
@@ -10,7 +10,8 @@ repository = "https://github.com/ADevillers/mcp-pfsense"
 packages = [{ include = "mcp_pfsense", from = "src" }]
 keywords = ["mcp", "pfsense", "homelab", "pfrest"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
+
     "Intended Audience :: System Administrators",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
